@@ -1,0 +1,12 @@
+{
+  "note": "Todas las imágenes son CC0 (dominio público) obtenidas vía Openverse. CC0 NO requiere atribución; se listan los créditos solo como cortesía y registro.",
+  "license": "CC0 1.0 — https://creativecommons.org/publicdomain/zero/1.0/",
+  "images": [
+    { "file": "assets/img/g-iluminacion.jpg",  "title": "LED light bulb",                   "creator": "rawpixel",             "source": "https://www.rawpixel.com/image/6021726/" },
+    { "file": "assets/img/g-bulbs.jpg",         "title": "Hanging vintage-style lightbulbs", "creator": "rawpixel",             "source": "https://www.rawpixel.com/image/3301790/" },
+    { "file": "assets/img/g-empotrada.jpg",     "title": "Interior with recessed lighting",  "creator": "Nishant Kapadiya",     "source": "https://wordpress.org/photos/photo/4776779259/" },
+    { "file": "assets/img/g-cableado.jpg",      "title": "Wire Copper",                      "creator": "rawpixel",             "source": "https://www.rawpixel.com/image/5969991/" },
+    { "file": "assets/img/g-interruptores.jpg", "title": "Electrician Electricity",          "creator": "Michal Jarmoluk",      "source": "https://stocksnap.io/photo/electrician-electricity-QJ55PI34SY" },
+    { "file": "assets/img/g-tableros.jpg",      "title": "Electrical panel / breaker",       "creator": "Moses Cursor Ssebunya", "source": "https://openverse.org" }
+  ]
+}

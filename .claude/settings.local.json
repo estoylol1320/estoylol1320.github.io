@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo \"=== Buscar logo-edumep ===\"; find \"C:/Users/User\" -iname \"*logo-edumep*\" 2>/dev/null | head -20; echo \"=== Buscar en carpeta pagina ===\"; ls -la \"C:/Users/User/OneDrive/Desktop/pagina\"; echo \"=== posibles logos edumep en Downloads/Desktop ===\"; find \"C:/Users/User/Downloads\" \"C:/Users/User/OneDrive/Desktop\" -iname \"*edumep*\" 2>/dev/null | head -20)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s -H 'apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJpZGtrZGdndG5seW9ramNwY3ZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE3OTY4MjQsImV4cCI6MjA5NzM3MjgyNH0.FTqGzK2BibRuZD9k6wzgF-GwxfIR4hJDow9927V3Nok' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJpZGtrZGdndG5seW9ramNwY3ZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE3OTY4MjQsImV4cCI6MjA5NzM3MjgyNH0.FTqGzK2BibRuZD9k6wzgF-GwxfIR4hJDow9927V3Nok' https://bidkkdggtnlyokjcpcvf.supabase.co/rest/v1/)",
+      "Bash(curl -s -D - -o /dev/null -H 'apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJpZGtrZGdndG5seW9ramNwY3ZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE3OTY4MjQsImV4cCI6MjA5NzM3MjgyNH0.FTqGzK2BibRuZD9k6wzgF-GwxfIR4hJDow9927V3Nok' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJpZGtrZGdndG5seW9ramNwY3ZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE3OTY4MjQsImV4cCI6MjA5NzM3MjgyNH0.FTqGzK2BibRuZD9k6wzgF-GwxfIR4hJDow9927V3Nok' -H 'Prefer: count=exact' -H 'Range: 0-0' https://bidkkdggtnlyokjcpcvf.supabase.co/rest/v1/productos?select=*)",
+      "Bash(curl -s -D - -o /dev/null -H 'apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJpZGtrZGdndG5seW9ramNwY3ZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE3OTY4MjQsImV4cCI6MjA5NzM3MjgyNH0.FTqGzK2BibRuZD9k6wzgF-GwxfIR4hJDow9927V3Nok' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJpZGtrZGdndG5seW9ramNwY3ZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE3OTY4MjQsImV4cCI6MjA5NzM3MjgyNH0.FTqGzK2BibRuZD9k6wzgF-GwxfIR4hJDow9927V3Nok' -H 'Prefer: count=exact' -H 'Range: 0-0' 'https://bidkkdggtnlyokjcpcvf.supabase.co/rest/v1/productos?select=producto&imagen_url=not.is.null')",
+      "PowerShell(Rename-Item -Path \"C:\\\\Users\\\\User\\\\OneDrive\\\\Desktop\\\\pagina\\\\index.html\" -NewName \"catalogo.html\"; Get-ChildItem \"C:\\\\Users\\\\User\\\\OneDrive\\\\Desktop\\\\pagina\" -File | Select-Object Name, @{n='KB';e={[math]::Round\\($_.Length/1KB\\)}})",
+      "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\User\\\\OneDrive\\\\Desktop\\\\pagina\\\\serve.ps1\")",
+      "PowerShell(netsh interface ipv4 show excludedportrange protocol=tcp)",
+      "Bash(command -v curl)",
+      "Bash(curl --version)",
+      "Bash(command -v python python3)",
+      "Bash(bash --version)",
+      "Bash(command -v jq)",
+      "Bash(bash \"C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-User-OneDrive-Desktop-pagina\\\\4d793911-b329-4e74-9c64-7021ea400348\\\\scratchpad\\\\fetch_img.sh\")",
+      "Bash(bash \"C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-User-OneDrive-Desktop-pagina\\\\4d793911-b329-4e74-9c64-7021ea400348\\\\scratchpad\\\\finalize_img.sh\")",
+      "mcp__visualize__read_me",
+      "mcp__visualize__show_widget",
+      "PowerShell(Get-Item \"C:\\\\Users\\\\User\\\\OneDrive\\\\Desktop\\\\pagina\\\\logo-edumep.png\" | Select-Object Name, LastWriteTime, @{n='KB';e={[math]::Round\\($_.Length/1KB\\)}})",
+      "Bash(python3 -)",
+      "Bash(awk -F',' 'NR>1 {print $1}' catalogo_consolidado_supabase.csv)",
+      "Bash(awk 'END{print NR-1}' catalogo_consolidado_supabase.csv)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\User\\\\OneDrive\\\\Desktop\\\\pagina\\\\imagenes\\\\categorias\" -File | Where-Object { $_.Extension -match 'jpg|jpeg|png|webp' } | Select-Object Name, LastWriteTime, @{n='KB';e={[math]::Round\\($_.Length/1KB\\)}})"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+﻿GUIA DE IMAGENES DE CATEGORIAS - EDUMEP
+========================================
+Guarda aqui las fotos de cada categoria con EXACTAMENTE estos nombres
+(formato .jpg o .png, recomendado ~800x600px). Apareceran solas en los mosaicos.
+
+--- MOSAICO PRINCIPAL (categorias generales) ---
+todos.jpg   <- la tarjeta 'Todos'
+cables-y-alambres.jpg   <- Cables y Alambres
+cajas-y-tableros.jpg   <- Cajas y Tableros
+conexiones-y-puesta-a-tierra.jpg   <- Conexiones y Puesta a Tierra
+ferreteria-y-herrajes.jpg   <- Ferretería y Herrajes
+iluminacion.jpg   <- Iluminación
+medicion.jpg   <- Medición
+proteccion-y-control.jpg   <- Protección y Control
+redes-y-seguridad.jpg   <- Redes y Seguridad
+tomas-e-interruptores.jpg   <- Tomas e Interruptores
+tuberia-canaletas-y-ductos.jpg   <- Tubería, Canaletas y Ductos
+
+--- SUBCATEGORIAS (la tarjeta 'Todos' de cada grupo usa la imagen de su categoria general) ---
+accesorios-de-iluminacion.jpg   <- Accesorios de Iluminacion
+accesorios-de-redes.jpg   <- Accesorios de Redes
+accesorios-emt.jpg   <- Accesorios EMT
+accesorios-pvc.jpg   <- Accesorios PVC
+acometida-trebol.jpg   <- Acometida Trebol
+alambres-y-cables.jpg   <- Alambres Y Cables
+alumbrado-publico.jpg   <- Alumbrado Público
+amarres-plasticos.jpg   <- Amarres Plasticos
+balas-y-spots-led.jpg   <- Balas y Spots LED
+balastos-y-reactancias.jpg   <- Balastos y Reactancias
+bandejas-portacables.jpg   <- Bandejas Portacables
+bombillos-led.jpg   <- Bombillos LED
+breakers-y-protecciones.jpg   <- Breakers y Protecciones
+cables-de-redes-y-comunicaciones.jpg   <- Cables de Redes y Comunicaciones
+cables-duplex-y-trenzados.jpg   <- Cables Duplex y Trenzados
+cables-encauchetados-y-de-control.jpg   <- Cables Encauchetados y de Control
+cajas-de-circuitos.jpg   <- Cajas de Circuitos
+cajas-de-medidores.jpg   <- Cajas de Medidores
+cajas-de-paso-y-mecanismos.jpg   <- Cajas de Paso y Mecanismos
+cajas-y-tapas-electricas.jpg   <- Cajas y Tapas Electricas
+canaletas.jpg   <- Canaletas
+canaletas-con-adhesivo.jpg   <- Canaletas con Adhesivo
+canaletas-metalicas.jpg   <- Canaletas Metalicas
+canaletas-ranuradas.jpg   <- Canaletas Ranuradas
+cinta-led-blanca.jpg   <- Cinta LED Blanca
+cintas-y-adhesivos.jpg   <- Cintas y Adhesivos
+control-industrial.jpg   <- Control Industrial
+corazas-y-accesorios.jpg   <- Corazas y Accesorios
+curvas-emt.jpg   <- Curvas EMT
+curvas-pvc.jpg   <- Curvas PVC
+elementos-de-conexion.jpg   <- Elementos de Conexion
+extensiones-y-multitomas.jpg   <- Extensiones y Multitomas
+ferreteria-y-fijacion.jpg   <- Ferreteria y Fijacion
+fotoceldas.jpg   <- Fotoceldas
+fusibles-y-cortacircuitos.jpg   <- Fusibles y Cortacircuitos
+herrajes-y-acometidas.jpg   <- Herrajes y Acometidas
+herramientas.jpg   <- Herramientas
+iluminacion-navidena.jpg   <- Iluminación Navideña
+lamparas-led.jpg   <- Lamparas LED
+luminarias-de-emergencia.jpg   <- Luminarias de Emergencia
+luminarias-led-hermeticas.jpg   <- Luminarias LED Hermeticas
+medidores.jpg   <- Medidores
+organizadores-de-cable.jpg   <- Organizadores de Cable
+panel-redondo-incrustar.jpg   <- Panel Redondo Incrustar
+panel-redondo-infinity.jpg   <- Panel Redondo Infinity
+panel-redondo-sobreponer.jpg   <- Panel Redondo Sobreponer
+paneles-led-60x60.jpg   <- Paneles LED 60x60
+portalamparas-y-sockets.jpg   <- Portalamparas y Sockets
+puesta-a-tierra.jpg   <- Puesta a Tierra
+reflectores-led.jpg   <- Reflectores LED
+reflectores-solares.jpg   <- Reflectores Solares
+regletas-y-conexiones.jpg   <- Regletas y Conexiones
+seguridad-y-citofonia.jpg   <- Seguridad y Citofonia
+sensores-infrarrojos.jpg   <- Sensores Infrarrojos
+senalizacion.jpg   <- Señalizacion
+terminales-pvc.jpg   <- Terminales PVC
+tomacorrientes-e-interruptores.jpg   <- Tomacorrientes e Interruptores
+tuberia-emt.jpg   <- Tuberia EMT
+tuberia-galvanizada-imc.jpg   <- Tuberia Galvanizada IMC
+tubos-led-y-fluorescentes.jpg   <- Tubos LED y Fluorescentes
+tubos-pvc.jpg   <- Tubos PVC
+ups-y-baterias.jpg   <- UPS y Baterias
+
+NOTA (2026-07-03): las categorias generales ya tienen ILUSTRACIONES de marca (.svg)
+creadas automaticamente. Si guardas una FOTO REAL (.jpg o .png) con el nombre de la
+lista, la foto REEMPLAZA a la ilustracion sin tocar nada mas. No borres los .svg:
+son el respaldo visual si no hay foto.
