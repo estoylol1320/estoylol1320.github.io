@@ -777,6 +777,24 @@ function mapRow(r){
    f:slugify(n)
  };
 }
+/* une en una sola tarjeta las filas repetidas: mismo nombre y mismos datos
+   (marca, potencia, medida, voltaje, color y temperatura). Si alguno de esos datos
+   cambia, cada fila conserva su propia tarjeta, como antes.
+   Se queda con la primera fila (menor id); si esa fila no tiene foto, descripción
+   o notas, se toman de la copia. */
+function groupByName(list){
+ const norm=s=>String(s||'').trim().toLowerCase().replace(/\s+/g,' ');
+ const byKey=new Map(),out=[];
+ list.forEach(p=>{
+   const k=[p.n,p.marca,p.potencia,p.medida,p.voltaje,p.color,p.temps.join('/')].map(norm).join('|');
+   const q=byKey.get(k);
+   if(!q){byKey.set(k,p);out.push(p);return;}
+   if(!q.img&&p.img)q.img=p.img;
+   if(!q.desc&&p.desc)q.desc=p.desc;
+   if(!q.notas&&p.notas)q.notas=p.notas;
+ });
+ return out;
+}
 function dedupeSlugs(list){
  const seen=Object.create(null);
  list.forEach(p=>{let base=p.f,s=base,i=1;while(seen[s]){i++;s=base+'-'+i;}seen[s]=1;p.f=s;});
@@ -1148,9 +1166,15 @@ async function loadProducts(){
  moreBtn.style.display="none";
  countPill.textContent="Cargando…";
  try{
-   const { data, error } = await supabase.from('productos').select('*').order('id',{ascending:true});
-   if(error) throw error;
-   PRODUCTS=(data||[]).map(mapRow).filter(p=>p.n);
+   /* Supabase devuelve como máximo 1000 filas por consulta: se piden por páginas */
+   let data=[];
+   for(let from=0;;from+=1000){
+     const { data:page, error } = await supabase.from('productos').select('*').order('id',{ascending:true}).range(from,from+999);
+     if(error) throw error;
+     data=data.concat(page||[]);
+     if(!page||page.length<1000) break;
+   }
+   PRODUCTS=groupByName(data.map(mapRow).filter(p=>p.n));
    dedupeSlugs(PRODUCTS);
    updateStats();
    renderView(false);
